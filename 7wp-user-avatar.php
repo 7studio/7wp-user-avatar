@@ -48,7 +48,7 @@ register_activation_hook( __FILE__, 'swp_ua_activate' );
 function swp_ua_deactivate() {
 	$users = get_users( array(
 		'meta_query' => array(
-			'key'     => 'ua_gravatar'
+			'key'     => 'ua_gravatar',
 			'value'   => 'true',
 			'compare' => '='
 		),
