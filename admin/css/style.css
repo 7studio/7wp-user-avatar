@@ -1,0 +1,43 @@
+.swp-ua-preview {}
+
+.swp-ua-preview .image {
+	background: rgba(0, 0, 0, .07) 50% / cover no-repeat;
+	box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.07 )
+	          , 0 0 0 1px #ddd;
+	margin: 0 0 4px;
+	position: relative;
+	width: 96px;
+}
+.swp-ua-preview .image::before {
+	content: "";
+	display: block;
+	padding: 0 0 100%;
+}
+.swp-ua-preview .image img {
+	background-color: #fff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.swp-ua-preview .image img[src*="gravatar.com"]:not([src*="gravatar.com/avatar/00000000000000000000000000000000"]) {
+	z-index: 2;
+}
+
+.swp-ua-preview .remove-button {
+	margin-right: 8px;
+}
+
+.swp-ua-preview[data-type="user-avatar"] .description {
+	display: none;
+}
+.swp-ua-preview[data-type="user-avatar"] .image img[src*="gravatar.com"]:not([src*="gravatar.com/avatar/00000000000000000000000000000000"]) {
+	opacity: 0;
+}
+
+.swp-ua-preview[data-type="gravatar"] .actions {
+	display: none;
+}

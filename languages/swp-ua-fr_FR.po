@@ -1,0 +1,94 @@
+# Copyright (C) 2017 Xavier Zalawa
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: 7wp-user-avatar 1.0.0\n"
+"POT-Creation-Date: 2017-11-30 20:21+0100\n"
+"PO-Revision-Date: 2017-12-01 08:12+0100\n"
+"Last-Translator: Xavier Zalawa <xavier@7studio.fr>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n:1,2;_nx:1,2;_n_noop:1,2;_nx_noop:1,2;"
+"esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../admin/user-avatar-admin.php:23 ../admin/user-avatar-admin.php:150
+msgid "Remove"
+msgstr "Retirer"
+
+#: ../admin/user-avatar-admin.php:24
+msgid "Select"
+msgstr "Sélectionner"
+
+#: ../admin/user-avatar-admin.php:25
+msgid "Select Image"
+msgstr "Sélectionner l‘image"
+
+#: ../admin/user-avatar-admin.php:26
+msgid "Change Image"
+msgstr "Changer l’image"
+
+#: ../admin/user-avatar-admin.php:27 ../admin/user-avatar-admin.php:114
+msgid "Profile Picture"
+msgstr "Illustration du profil"
+
+#: ../admin/user-avatar-admin.php:93
+msgid "Avatar"
+msgstr "Avatar"
+
+#: ../admin/user-avatar-admin.php:96 ../admin/user-avatar-admin.php:99
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: ../admin/user-avatar-admin.php:107
+#, php-format
+msgid "Uses the <a href=\"%s\">Gravatar</a> free service."
+msgstr "Utiliser le service gratuit <a href=\"%s\">Gravatar</a>."
+
+#: ../admin/user-avatar-admin.php:107 ../admin/user-avatar-admin.php:135
+msgid "https://en.gravatar.com/"
+msgstr "https://fr.gravatar.com/"
+
+#: ../admin/user-avatar-admin.php:134
+#, php-format
+msgid "You can change your profile picture on <a href=\"%s\">Gravatar</a>."
+msgstr ""
+"Vous pouvez changer votre image de profil en passant par <a href=\"%s"
+"\">Gravatar</a>."
+
+#: ../admin/user-avatar-admin.php:151
+msgid "Select image"
+msgstr "Sélectionner une image"
+
+#: ../admin/user-avatar-admin.php:157 ../admin/user-avatar-admin.php:160
+msgid "Rating"
+msgstr "Classement"
+
+#: ../admin/user-avatar-admin.php:163
+msgid "G &#8212; Suitable for all audiences"
+msgstr "G &#8212; Visible par tous"
+
+#: ../admin/user-avatar-admin.php:164
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr ""
+"PG &#8212; Possiblement offensant, réservé normalement aux personnes de 13 "
+"ans et plus"
+
+#: ../admin/user-avatar-admin.php:165
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr "R &#8212; Réservé aux personnes de plus de 17 ans"
+
+#: ../admin/user-avatar-admin.php:166
+msgid "X &#8212; Even more mature than above"
+msgstr "X &#8212; Réservé aux adultes"
+
+#: ../admin/user-avatar-admin.php:197
+msgid "User Avatar"
+msgstr "Avatar de l‘utilisateur"
